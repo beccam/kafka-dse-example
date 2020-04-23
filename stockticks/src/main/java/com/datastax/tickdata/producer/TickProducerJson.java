@@ -27,7 +27,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class TickProducerJson {
 
     private static final String TOPIC = "tick-stream-json";
-    private static final int RECORDS_PER_STOCK = 1_000;
+    private static final int RECORDS_PER_STOCK = 10_000;
 
     // Report number of records sent every this many seconds.
     private static final long PROGRESS_REPORTING_INTERVAL = 5;
